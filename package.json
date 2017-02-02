@@ -6,11 +6,20 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
+  "author": "William Hurley",
   "license": "MIT",
   "dependencies": {
     "twit": "^2.2.5",
     "unique-random-array": "^1.0.0",
     "unirest": "^0.5.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjhurley/twitter-bot-bootstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wjhurley/twitter-bot-bootstrap/issues"
+  },
+  "homepage": "https://github.com/wjhurley/twitter-bot-bootstrap#readme"
 }

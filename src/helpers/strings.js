@@ -1,6 +1,7 @@
 module.exports = {
   queryString: [
-    ''
+    'SeleniumHQ',
+    'reactjs',
   ],
   queryStringSubQuery: [
     ''
