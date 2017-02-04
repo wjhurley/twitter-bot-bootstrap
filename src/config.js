@@ -4,7 +4,7 @@
  * access_token
  * access_token_secret
  */
-
+require('dotenv').config();
 // Uncomment for when deploying to Heroku
 
 module.exports = {
