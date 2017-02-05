@@ -52,11 +52,10 @@ The environment project tree should look something like this.
 
 ## Node dependencies
 
-Before configuring the bot we'll need to install some dependencies, from the terminal enter:
+Before configuring the bot we'll need to install the dependencies, from the terminal enter:
 
 ```
-$ npm install --save twit
-$ npm install --save unique-random-array
+$ npm install
 ```
 
 Then cd into your new folder `cd tw*` will move you to `:~/workspace/twitter-bot-bootstrap (master) $ ` form here you can configure the bot, from the terminal enter.
@@ -74,6 +73,8 @@ Onto the Twitter keys, now you'll need to add these to the `config.js` file and 
 *add query and sub-query strings*
 
 *you can also update blocked strings to block more stuff*
+
+When adding sub-query strings make sure you leave a space at the beginning of the string so `' handy tip'` gets concatenated onto `'node.js'` as `node.js hady tip` and not `node.jshady tip`. 
 
 Then add the username of the Twitter account you are using to the `tweetNow` function in the `bot.js` file, this will ensure your bot doesn't reply to itself when it has been followed by a user.
 
