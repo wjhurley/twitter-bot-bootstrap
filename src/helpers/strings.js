@@ -2,6 +2,7 @@ module.exports = {
   queryString: [
     'SeleniumHQ',
     'reactjs',
+    'aframevr'
   ],
   queryStringSubQuery: [
     ''
